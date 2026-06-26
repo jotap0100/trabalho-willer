@@ -12,7 +12,7 @@ datasource db {
   provider = "postgresql"
 }
 
-model produtos {
+model Produtos {
   id Int     @id @default(autoincrement()) 
   nome String
   categoria String
